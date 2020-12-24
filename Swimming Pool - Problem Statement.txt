@@ -1,0 +1,39 @@
+Find number of swimming pools in the 2 dimentional array.
+0 = water
+1 = wall
+
+If 0 surrounded by 1 in all direction(8 directions), it qualifies as 1 pool.
+
+Consider the following input.
+
+1111111111111111111110111111
+1111111000111111111110111111
+1111111111111111111111111111
+1111111000000000111110111111
+1111111111111111111111111111
+
+Here, there are 3 pools. So output is 3.
+
+how many ever zeros are there covered by same wall, it is counted by 1 pool only
+
+Example-1:
+
+Input:
+1111111111111111111110111111
+1111111000111111111110111111
+1111111111111111111111111111
+1111111000000000111110111111
+1111111111111111111111111111
+
+Output:
+Numbre of pools: 3
+
+Example-2:
+
+Input:
+111111111111111111
+000111101111111111
+111111011111111101
+
+Output:
+Number of pools: 0
